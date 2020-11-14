@@ -1,0 +1,67 @@
+.contentwrap {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(76, 164, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 164, 86, 0.9178046218487395) 0%,
+    rgba(143, 217, 116, 0.8813900560224089) 100%
+  );
+  padding: 2em;
+}
+.clinicdetails {
+  width: 48%;
+}
+.clinicdetails h1 {
+  color: white;
+}
+.clinicdetails img {
+  margin-top: 1em;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.detailswrap {
+  color: white;
+  padding: 1em 0;
+}
+.about,
+.address,
+.contact,
+.timings,
+.reviews {
+  display: flex;
+  margin: 1em 0;
+}
+.about h3,
+.address h3,
+.contact h3,
+.timings h3,
+.reviews h3 {
+  width: 15%;
+}
+.about p,
+.address h4,
+.contact h4,
+.timings h4,
+.reviews .comment {
+  margin-left: 1em;
+  width: 80%;
+}
+.comment h5 {
+  margin-bottom: 1em;
+}
+.clinicdoctors {
+  width: 50%;
+}
+.clinicdoctors h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.doctorsCard {
+  height: 85vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}

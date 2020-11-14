@@ -1,0 +1,101 @@
+[
+    { 
+        "id":1,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Fortis Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"Logan"
+    },    
+    {
+        "id":2,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Alta Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"6786367311",
+        "timings":"Open 24 hours",
+        "doctor":"Rock"
+    },
+    {
+        "id":3,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Apollo Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"2163367311",
+        "timings":"Open 24 hours",
+        "doctor":"San"
+    },
+    {
+        "id":4,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Areta Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"Brad"
+    },
+    {
+        "id":5,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"KIMS Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"863367311",
+        "timings":"Open 24 hours",
+        "doctor":"Logan"
+    },
+    {
+        "id":6,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Apollo Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"45663367311",
+        "timings":"Open 24 hours",
+        "doctor":"sam"
+    },
+    {
+        "id":7,
+        "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Fortis Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"63367311",
+        "timings":"Open 24 hours",
+        "doctor":"Lorem"
+    },
+    {
+        "id":8,
+         "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"LEMO Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"Logan"
+    },
+    {
+        "id":9,
+         "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Vils Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"Brad"
+    },
+    {
+        "id":10,
+         "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"MJ Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"guf"
+    },
+    {
+        "id":11,
+         "about":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+        "name":"Fortis Hospital",
+        "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
+        "contact":"9663367311",
+        "timings":"Open 24 hours",
+        "doctor":"Logan"
+    }
+]

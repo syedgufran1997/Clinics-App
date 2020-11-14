@@ -1,0 +1,133 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(76, 164, 86);
+  background: linear-gradient(
+      90deg,
+      rgba(76, 164, 86, 0.6404936974789917) 0%,
+      rgba(143, 217, 116, 0.335171568627451) 100%
+    ),
+    url("../assets/Images/medical-min.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.signInStyles {
+  width: 320px;
+  margin: 50px auto 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em 1em;
+  box-shadow: 0px 3px 11px 3px rgba(77, 77, 77, 0.75);
+  -webkit-box-shadow: 0px 3px 11px 3px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: 0px 3px 11px 3px rgba(77, 77, 77, 0.75);
+}
+
+.signInStyles input,
+textarea {
+  margin: 10px 30px;
+  width: 260px;
+  padding: 16px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #7c7b7b7e;
+  transition-duration: 300ms;
+}
+
+.signInStyles textarea {
+  padding: 8px 10px;
+}
+
+.signInStyles textarea:focus {
+  border: 1px solid #4ca456;
+}
+
+.signInStyles input:focus {
+  border: 1px solid #4ca456;
+}
+
+.regbuttons button {
+  margin: 10px auto;
+  padding: 10px 8px;
+  width: 130px;
+  font-size: 1.1rem;
+  border: 1px solid rgb(170, 167, 167);
+  outline: none;
+  cursor: pointer;
+}
+
+.regbuttons button:first-child {
+  color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 30px;
+  background: rgb(76, 164, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 164, 86, 1) 0%,
+    rgba(143, 217, 116, 1) 100%
+  );
+}
+.regbuttons button:first-child:hover {
+  color: lightgrey;
+}
+.regbuttons button:nth-of-type(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  background: rgb(76, 164, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 164, 86, 1) 0%,
+    rgba(143, 217, 116, 1) 100%
+  );
+}
+.regbuttons button:nth-of-type(2):hover {
+  color: lightgrey;
+}
+.error {
+  color: red;
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 550px) {
+  .content {
+    display: flex;
+  }
+  .pregbanner {
+    height: 100vh;
+    width: 50vw;
+  }
+  .pregbanner h1 {
+    font-size: 2.6rem;
+  }
+  .signInStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  button:first-child {
+    margin-left: 30px;
+  }
+  .pregbanner h1 {
+    font-size: 3.2rem;
+  }
+}
