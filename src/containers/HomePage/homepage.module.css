@@ -22,6 +22,22 @@
 .cards {
   width: 75%;
 }
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.searchbar h1 {
+  color: white;
+  width: 30%;
+  margin-left: 0.5em;
+}
+.searchwrap {
+  width: 41%;
+}
+.adminButton {
+  width: 20%;
+}
+
 .cardwrap {
   display: flex;
   flex-wrap: wrap;

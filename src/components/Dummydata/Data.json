@@ -6,7 +6,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"Logan"
+        "doctor":"Logan",
+        "email":"logan@gmail.com"
     },    
     {
         "id":2,
@@ -15,7 +16,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"6786367311",
         "timings":"Open 24 hours",
-        "doctor":"Rock"
+        "doctor":"Rock",
+        "email":"rock@gmail.com"
     },
     {
         "id":3,
@@ -24,7 +26,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"2163367311",
         "timings":"Open 24 hours",
-        "doctor":"San"
+        "doctor":"San",
+        "email":"san@gmail.com"
     },
     {
         "id":4,
@@ -33,7 +36,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"Brad"
+        "doctor":"Brad",
+        "email":"brad@gmail.com"
     },
     {
         "id":5,
@@ -42,7 +46,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"863367311",
         "timings":"Open 24 hours",
-        "doctor":"Logan"
+        "doctor":"Logan",
+        "email":"logan@gmail.com"
     },
     {
         "id":6,
@@ -51,7 +56,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"45663367311",
         "timings":"Open 24 hours",
-        "doctor":"sam"
+        "doctor":"sam",
+        "email":"sam@gmail.com"
     },
     {
         "id":7,
@@ -60,7 +66,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"63367311",
         "timings":"Open 24 hours",
-        "doctor":"Lorem"
+        "doctor":"Lorem",
+        "email":"logan@gmail.com"
     },
     {
         "id":8,
@@ -69,7 +76,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"Logan"
+        "doctor":"Logan",
+        "email":"logan@gmail.com"
     },
     {
         "id":9,
@@ -78,7 +86,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"Brad"
+        "doctor":"Brad",
+        "email":"Brad@gmail.com"
     },
     {
         "id":10,
@@ -87,7 +96,8 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"guf"
+        "doctor":"guf",
+        "email":"guf@gmail.com"
     },
     {
         "id":11,
@@ -96,6 +106,7 @@
         "address":"154, 9, Bannerghatta Main Rd, Opposite IIM  · Fortis hospital-Bannerghatta,Bangalore",
         "contact":"9663367311",
         "timings":"Open 24 hours",
-        "doctor":"Logan"
+        "doctor":"Logan",
+        "email":"logan@gmail.com"
     }
 ]

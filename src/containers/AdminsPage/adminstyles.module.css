@@ -1,0 +1,20 @@
+.contentwrap {
+  background: rgb(76, 164, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 164, 86, 0.9178046218487395) 0%,
+    rgba(143, 217, 116, 0.8813900560224089) 100%
+  );
+  padding: 2em;
+  height: 100vh;
+}
+.contentwrap h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 1em 0;
+}
+.cardwrap {
+  display: flex;
+  flex-wrap: wrap;
+}

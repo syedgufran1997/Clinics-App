@@ -178,8 +178,8 @@ function HomeRoutes() {
     <>
      <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/home_page" exact component={HomePage} />
-      <Route path="/clinic_page" exact component={ClinicPage} />
+      <Route path="/home_page"  component={HomePage} />
+      <Route path="/clinic_page/:id"  component={ClinicPage} />
       <Route path="/admin_page" component={AdminPage} />
    </Switch>
     </>
