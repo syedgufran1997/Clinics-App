@@ -7,10 +7,6 @@ const Clinic = (props) => {
 
     const data  = dumData
 
-    // const myData = () => {
-    //     {data.filter(item => item.name === item.id).map((clinic) => <li>{clinic.name}</li>)}
-    // }
-
     const {match: {params}} = props;
 
     return (

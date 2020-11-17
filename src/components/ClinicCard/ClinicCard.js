@@ -1,6 +1,7 @@
 import React from 'react';
 import clinicstyles from "./cliniccard.module.css"
-import HospitalImage from "../../assets/Images/medical-min.jpg"
+
+
 const ClinicCard = (props) => {
     return (
         <div className={clinicstyles.contentwrap} onClick={props.onClick} key={props.key}>
