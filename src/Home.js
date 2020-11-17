@@ -158,11 +158,8 @@ class Home extends Component {
                     onClick={(e) => this.logIn(e)}
                     buttonName={this.state.isLogin ? "Log in" : "sign up"}
                     style={{
-                      color: "white",
                       width: "260px",
-                      margin: "20px 30px",
-                    }}
-                  ></Button>
+                      margin: "20px 30px"}}  />
                 </div>
               </form>
             </div>

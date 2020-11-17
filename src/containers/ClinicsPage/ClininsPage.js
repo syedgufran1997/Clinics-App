@@ -11,8 +11,6 @@ const Clinic = (props) => {
 
     return (
         <>
-    
-
         <div className={clinicstyles.contentwrap}>
             <div className={clinicstyles.clinicdetails} >
                 <h1>{data[params.id - 1].name} </h1>

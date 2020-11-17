@@ -34,12 +34,7 @@ const HomePage = (props) => {
                   <Button
                     onClick={(e) => navigateToAdminPage(e)}
                     buttonName="Admin Page"
-                    style={{
-                      color: "white",
-                      margin: "0.8em 2.5em",
-                      boxShadow:"0px 1px 2.5px 2px grey"
-                    }}
-                  ></Button>
+                    style={{ margin: "0.8em 2.5em"}} />
                 </div>
                 </div>
                 <div className={homepagestyles.cardwrap} >

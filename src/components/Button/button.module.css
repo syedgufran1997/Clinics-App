@@ -5,7 +5,7 @@
     rgba(76, 164, 86, 1) 0%,
     rgba(143, 217, 116, 1) 100%
   );
-  color: black;
+  color: white;
   font-size: 16px;
   border: 2px;
   border-radius: 5px;
@@ -18,8 +18,8 @@
   overflow: hidden;
   outline: none;
   cursor: pointer;
+  box-shadow: 0px 1px 2.5px 2px grey;
 }
-
 .btn:hover {
   background: rgb(44, 96, 50);
   background: linear-gradient(
