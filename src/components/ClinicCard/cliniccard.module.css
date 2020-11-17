@@ -22,6 +22,7 @@
   cursor: pointer;
 }
 .textwrap h3 {
+  margin-bottom: 0.5em;
 }
 .textwrap h5 {
   margin-bottom: 1em;

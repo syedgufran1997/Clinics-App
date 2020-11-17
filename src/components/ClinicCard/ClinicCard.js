@@ -3,8 +3,8 @@ import clinicstyles from "./cliniccard.module.css"
 import HospitalImage from "../../assets/Images/medical-min.jpg"
 const ClinicCard = (props) => {
     return (
-        <div className={clinicstyles.contentwrap} onClick={props.onClick}>
-            <img src={HospitalImage} alt="example" />
+        <div className={clinicstyles.contentwrap} onClick={props.onClick} key={props.key}>
+            <img src={props.src} alt="example" />
             <div className={clinicstyles.textwrap}>
                 <h3>{props.name}</h3>
                 <h5>{props.address}</h5>

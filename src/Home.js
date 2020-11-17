@@ -57,7 +57,7 @@ class Home extends Component {
     return true;
   };
 
-  onSubmit = (e) => {
+  logIn = (e) => {
     e.preventDefault();
     const isValid = this.validate();
     if (isValid) {
@@ -155,7 +155,7 @@ class Home extends Component {
                 ) : null}
                 <div className={homestyles.submitButton}>
                   <Button
-                    onClick={(e) => this.onSubmit(e)}
+                    onClick={(e) => this.logIn(e)}
                     buttonName={this.state.isLogin ? "Log in" : "sign up"}
                     style={{
                       color: "white",

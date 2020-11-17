@@ -8,23 +8,20 @@ import Button from "../../components/Button/Button"
 
 
 const HomePage = (props) => {
-    const data = dumData
 
+    const data = dumData
 
     const navigateToAdminPage = () => {
         props.history.push("/admin_page")
     }
 
-    const navigateToClinic = (id) => {
-    props.history.push("/clinic_page/:id",{id});
+    const navigateToClinic = (item) => {
+    props.history.push(`/clinic_page/${item.id}`);
     }  
-
-
 
     return (
         <div className={homepagestyles.contentwrap}>
             <div className={homepagestyles.heading} >
-                
                 <h1>The Greatest Wealth Is Health.</h1>
             </div>
             <div className={homepagestyles.cards}>
@@ -45,9 +42,11 @@ const HomePage = (props) => {
                   ></Button>
                 </div>
                 </div>
-                <div className={homepagestyles.cardwrap}>
-                    {data.map((item) => 
-                    <ClinicCard name={item.name} address={item.address} contact={item.contact} timings={item.timings} onClick={(e) => navigateToClinic(item)} />
+                <div className={homepagestyles.cardwrap} >
+                    {data.map((item,id) => 
+                    <div key={id}>
+                    <ClinicCard key={id} src={item.img} name={item.name} address={item.address} contact={item.contact} timings={item.timings} onClick={() => navigateToClinic(item)} />
+                    </div>
                     )}
                 </div>
             </div>
