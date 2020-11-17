@@ -15,8 +15,7 @@ const Clinic = (props) => {
 
     return (
         <>
-        {console.log("params id :- ", `${params.id}`)}
-
+    
 
         <div className={clinicstyles.contentwrap}>
             <div className={clinicstyles.clinicdetails} >
