@@ -2,12 +2,21 @@
   outline: none;
   border: none;
   padding: 0.8em 1em;
-  margin: 1em 0.5em;
-  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
   border-radius: 10px;
 }
 .searchbarwrap input:focus {
   box-shadow: 0px 5px 10px 1px rgba(59, 59, 59, 0.75);
   -webkit-box-shadow: 0px 5px 10px 1px rgba(59, 59, 59, 0.75);
   -moz-box-shadow: 0px 5px 10px 1px rgba(59, 59, 59, 0.75);
+}
+@media screen and (min-width: 1000px) {
+  .searchbarwrap input {
+    padding: 0.8em 1em;
+    margin: 1em 0.5em;
+    width: 100%;
+  }
 }

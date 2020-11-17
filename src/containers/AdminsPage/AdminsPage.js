@@ -11,7 +11,7 @@ const Admin = () => {
             <h1>List Of Users Signed Up</h1>
             <div className={adminStyles.cardwrap} >
                 {AdminData.map((item) => 
-                <AdminCard name={item.doctor} contact={item.email} address={item.address} />
+                <AdminCard img={item.img} name={item.doctor} contact={item.email} address={item.address} />
                  )}
             </div>
         </div>

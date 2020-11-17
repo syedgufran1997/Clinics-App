@@ -5,42 +5,68 @@
     rgba(76, 164, 86, 0.9178046218487395) 0%,
     rgba(143, 217, 116, 0.8813900560224089) 100%
   );
-  display: flex;
-  height: 100vh;
 }
-.heading {
-  width: 25%;
-}
+
 .heading h1 {
   color: white;
-  padding: 2em 1em;
-  font-size: 3.5em;
+  padding: 0.5em 1em;
   display: flex;
   justify-content: center;
-  margin-top: 2em;
 }
-.cards {
-  width: 75%;
-}
-.searchbar {
-  display: flex;
-  align-items: center;
-}
+
 .searchbar h1 {
   color: white;
-  width: 30%;
-  margin-left: 0.5em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-.searchwrap {
-  width: 41%;
-}
+
 .adminButton {
-  width: 20%;
+  margin: 0 auto;
 }
 
 .cardwrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: 90vh;
   overflow-y: scroll;
+}
+
+@media screen and (min-width: 1000px) {
+  .contentwrap {
+    display: flex;
+    height: 100vh;
+  }
+  .heading {
+    width: 25%;
+  }
+  .cards {
+    width: 75%;
+  }
+  .heading h1 {
+    color: white;
+    padding: 2em 1em;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  .searchbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .searchbar h1 {
+    color: white;
+    width: 30%;
+    margin-left: 0.5em;
+  }
+  .searchwrap {
+    width: 41%;
+  }
+  .cardwrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

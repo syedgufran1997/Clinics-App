@@ -25,7 +25,7 @@ const Clinic = (props) => {
                     </div>
 
                     <div className={clinicstyles.address}>
-                    <h3>Address</h3>
+                    <h3>Address :</h3>
                     <h4>{data[params.id - 1].address}</h4>
                     </div>
 
@@ -58,7 +58,7 @@ const Clinic = (props) => {
                 <h1>Doctors For You</h1>
                 <div className={clinicstyles.doctorsCard}>
                     {data.map((item) => 
-                    <DoctorCard name={item.doctor} address={item.address} contact={item.contact} timings={item.timings}  />
+                    <DoctorCard img={item.img} name={item.doctor} address={item.address} contact={item.contact} timings={item.timings}  />
                     )}
                 </div>
             </div>
